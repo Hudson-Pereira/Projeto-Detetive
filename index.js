@@ -39,15 +39,15 @@ let res5 = +prompt('Você já trabalhou com a vítima?');
 let t = res1 + res2 + res3 + res4 + res5;
 console.log(t);
 
-if (t = 1){
+if (t <= 1){
   console.log('Suspeito considerado INOCENTE do crime.');
-} else if (t = 2){
+} else if (t == 2){
   console.log('Suspeito considerável possível autor do crime.');
-} else if (t= 3) {
+} else if (t== 3) {
   console.log('Supeito considerado CÚMPLICE no crime.');
-} else if (t = 4){
+} else if (t == 4){
   console.log('Suspeito considerado CÚMPLICE no crime.');
-} else if (t = 5) {
+} else if (t == 5) {
   console.log('Suspeito considerado CULPADO do crime = ASSASSINO!')
 } else if (t > 5) {
   console.log('Você não respondeu todas as questões corretamente, faça o questionário novamente.')
