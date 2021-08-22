@@ -50,7 +50,7 @@ if (t <= 1){
 } else if (t == 5) {
   console.log('Suspeito considerado CULPADO do crime = ASSASSINO!')
 } else if (t > 5) {
-  console.log('Você não respondeu todas as questões corretamente, faça o questionário novamente.')
+  console.log('Você não respondeu todas as questões corretamente, faça o questionário novamente.Responda apenas com 1 para SIM e 0 para NÃO.')
 } else {
-    console.log('Você não respondeu todas as questões corretamente, faça o questionário novamente.')
+    console.log('Você não respondeu todas as questões corretamente, faça o questionário novamente.Responda apenas com 1 para SIM e 0 para NÃO.')
 };
